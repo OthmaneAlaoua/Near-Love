@@ -1,0 +1,7 @@
+find the ip of the wsl with : "ip addr"
+
+use these three commands in a windows administrator terminal with the found ip in the `connectaddress` field
+
+netsh interface portproxy add v4tov4 listenport=19000 connectport=19000 connectaddress=172.23.82.10
+netsh interface portproxy add v4tov4 listenport=19001 connectport=19001 connectaddress=172.23.82.10
+netsh interface portproxy add v4tov4 listenport=19002 connectport=19002 connectaddress=172.23.82.10

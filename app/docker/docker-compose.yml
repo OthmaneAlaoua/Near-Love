@@ -1,0 +1,97 @@
+version: "3"
+
+services:
+  customer-api:
+    container_name: customer-api-168
+    build: ./images/php-8-pdo
+    image: php-with-pdo
+    working_dir: /app
+    command: php -S 0.0.0.0:8001 -t public
+    volumes:
+      - ../customer-api:/app
+    ports:
+      - 8001:8001
+    depends_on:
+      - customer-db
+
+  customer-db:
+    container_name: customer-db-168
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: etna
+      MYSQL_DATABASE: customer-db
+      MYSQL_USER: etna
+      MYSQL_PASSWORD: etna
+    ports:
+      - 3306:3306
+
+  localisation-api:
+    container_name: localisation-api-168
+    build: ./images/php-8-pdo
+    image: php-with-pdo
+    working_dir: /app
+    command: php -S 0.0.0.0:8006 -t public
+    volumes:
+      - ../localisation-api:/app
+      - ./crontabs/localisation-api:/var/spool/cron/crontabs
+    ports:
+      - 8006:8006
+    depends_on:
+      - localisation-db
+
+  localisation-db:
+    container_name: localisation-db-168
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: etna
+      MYSQL_DATABASE: localisation-db
+      MYSQL_USER: etna
+      MYSQL_PASSWORD: etna
+    ports:
+      - 3307:3306
+
+  auth-api:
+    container_name: auth-api-168
+    build: ./images/php-8-pdo
+    image: php-with-pdo
+    working_dir: /app
+    command: php -S 0.0.0.0:8005 -t public
+    volumes:
+      - ../auth-api:/app
+    ports:
+      - 8005:8005
+
+  chat-api:
+    container_name: chat-api-168
+    build: ./images/node-16-express
+    image: node-16-express
+    working_dir: /app
+    command: yarn start
+    volumes:
+      - ../chat-api:/app
+      - /app/node_modules
+    ports:
+      - 8066:8066
+
+  chat-db:
+    container_name: chat-db-168
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: etna
+      MYSQL_DATABASE: chat-db
+      MYSQL_USER: etna
+      MYSQL_PASSWORD: etna
+    ports:
+      - 3366:3306
+
+  proxy:
+    container_name: proxy-168
+    image: nginx:1.17
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ../proxy:/etc/nginx/conf.d
+    depends_on:
+      - customer-api
+      - auth-api

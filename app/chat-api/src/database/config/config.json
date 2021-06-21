@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "etna",
+    "password": "etna",
+    "database": "chat-db",
+    "host": "chat-db-168",
+    "dialect": "mysql",
+    "port": "3306"
+  },
+  "test": {
+    "username": "etna",
+    "password": "etna",
+    "database": "chat-db",
+    "host": "chat-db-168",
+    "dialect": "mysql",
+    "port": "3306"
+  },
+  "production": {
+    "username": "etna",
+    "password": "etna",
+    "database": "chat-db",
+    "host": "chat-db-168",
+    "dialect": "mysql",
+    "port": "3306"
+  }
+}

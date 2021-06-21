@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0df2922f-7074-4421-b86d-cf047050252d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../app/chat-api/src/routes/conversationsInterService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/chat-api/src/services/messages/save.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../app/chat-api/src/services/messages/save.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DockerExecCommands">
+    <ExecCommand>
+      <option name="command" value="yarn install" />
+    </ExecCommand>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="yanis" />
+                    <option name="lastUsedInstant" value="1623109064" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="yanis_wsl" />
+                    <option name="lastUsedInstant" value="1623407980" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="yanis" />
+                    <option name="lastUsedInstant" value="1623109304" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1623109303" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tdjZSL2Kwe3lcJGA4FOOQlZ9Wv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showURL" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../localisation_db_localisation.sql" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="\\wsl$\Debian\home\yan\projects\ETNA\168H\group-870025\front\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\front\components" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\front\types" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\app\customer-api\storage\app\images" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\front\components\Chat" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\front\screens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Debian\home\yan\projects\ETNA\168H\group-870025\front" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\app\docker\crontabs\customer-api" />
+      <recent name="C:\Users\Yan\Documents\Projects\ETNA\168H\group-870025\app\chat-api\src\services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="docker.localisation-api: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="localisation-api" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="../app/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker.localisation-api: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0df2922f-7074-4421-b86d-cf047050252d" name="Default Changelist" comment="" />
+      <created>1623105916306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623105916306</updated>
+      <workItem from="1623105917794" duration="12874000" />
+      <workItem from="1623160478438" duration="14688000" />
+      <workItem from="1623177842932" duration="13417000" />
+      <workItem from="1623196759123" duration="1828000" />
+      <workItem from="1623199353554" duration="26033000" />
+      <workItem from="1623400206833" duration="6189000" />
+      <workItem from="1623407709559" duration="1332000" />
+      <workItem from="1623409077509" duration="14843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="yanis" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
